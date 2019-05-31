@@ -17,3 +17,20 @@ body{
   transform: rotateX(35deg);
   -webkit-transform: rotateX(35deg);
 }
+p{
+  animation-duration: 10s;
+  animation-delay: 0;
+  animation-name: text;
+  animation-iteration-count: 1;
+}
+
+@keyframes text {
+  from{
+    margin-bottom: 200%;
+    height: -100%;
+  }
+  to{
+    margin-bottom: 0%;
+    height: 50%
+  }
+}
